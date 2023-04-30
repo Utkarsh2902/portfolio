@@ -1,0 +1,35 @@
+:root{
+    --primary-color:var(#f1f5f9)
+    
+}
+body{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif, Helvetica, sans-serif, Courier, monospace
+   }
+ .container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
+ .container-center{
+    max-width: 600px;
+    margin: auto;
+ }
+ .link{
+    text-decoration: none;
+    padding: 0rem 1rem;
+ }
+ .link-primary{
+    
+    background-color: aqua;
+    border-radius: 12px;
+    border: 1px solid rgb(102, 255, 0)
+ }
+.link-secondary{
+    background-color: aqua;
+    border-radius: 12px;
+    border: 1px solid rgb(102, 255, 0)
+ }
+ .list-unorder{
+    list-style: none;
+
+ }
