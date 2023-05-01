@@ -16,7 +16,7 @@
     <p>paragraphs</p>
     <small>small text</small>
     <hr>
-    <h2 >@containers</h2>
+    <h2>@containers</h2>
     <div class="container">
         <h3>fluid container</h3>
     </div>
@@ -30,7 +30,7 @@
     <hr>
     <h2>@lists</h2>
     <h3>unordered lists (without bullets)</h3>
-    <ul class="list list-unorder">
+    <ul class="list-nonbullets">
         <li> list1
         </li>
         <li> list2
@@ -38,18 +38,18 @@
         <li> list3
         </li>
     </ul>
-    <h3 class="list list-inline">inline lists</h3>
-    <ul >
-        <li> list1
+    <h3>inline lists</h3>
+    <ul class="list-nonbullets">
+        <li class="list-inline"> list1
         </li>
-        <li> list2
+        <li class="list-inline"> list2
         </li>
-        <li> list3
+        <li class="list-inline"> list3
         </li>
 
     </ul>
-    <h3 class="list list-reverse">reverse ordered lists</h3>
-    <ol>
+    <h3 class="list-reverse">reverse ordered lists</h3>
+    <ol reversed>
         <li> list1
         </li>
         <li> list2
@@ -60,47 +60,57 @@
 
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <ul>
-            <li>
-                <a href="">about</a>
+    <nav class="nav">
+        <div class="heading">Inside Nav</div>
+
+        <ul class="listalign">
+            <li class="list-inline">
+                <a class="pills" href="">about</a>
             </li>
-            <li>
-                <a href=""> project</a>
+            <li class="list-inline">
+                <a class="pills" href=""> project</a>
             </li>
-            <li>
-                <a href=""> blog</a>
+            <li class="list-inline">
+                <a class="pills" href=""> blog</a>
             </li>
         </ul>
     </nav>
     <hr>
     <h2>@header</h2>
-    <header>
-        <img src="images/myback3.svg" alt="cover">
-        <h1>header heading</h1>
+    <header class="hero">
+        <img class="image" src="images/myback3.svg" alt="cover">
+        <h1 class="hero-heading">Utkarsh Gupta <span style="color: blue;">The Web Developer</span> </h1>
     </header>
     <hr>
     <h2>@section</h2>
 
-    <section>
-        <h3>normal section</h3>
-        <p>heading will be centered and padding top bottom</p>
+    <section class="section">
+        <h1>normal section</h1>
+        <p>It is the speech given by the person who is in charge of the event to give a welcoming speech to the chief
+            guest. The speech could be given by a student, teacher, Principal, or a host at any event organized in the
+            school, College, or university. The purpose of a welcome speech is to welcome the chief guest and to set the
+            tone for the event. It is important to make the chief guest feel welcome and to ensure that the audience is
+            also aware of the importance of the occasion.</p>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>background change</p>
+    <section class="section ow">
+        <h1>off white section</h1>
+        <p>It is the speech given by the person who is in charge of the event to give a welcoming speech to the chief
+            guest. The speech could be given by a student, teacher, Principal, or a host at any event organized in the
+            school, College, or university. The purpose of a welcome speech is to welcome the chief guest and to set the
+            tone for the event. It is important to make the chief guest feel welcome and to ensure that the audience is
+            also aware of the importance of the occasion.</p>
     </section>
-    <footer>
-        <h1>big text</h1>
-        <ul>
-            <li>
+    <footer  class="foot">
+        <div class="foothead">Inside Nav</div>
+        <ul class="listalign">
+            <li class="list-inline">
                 social1
             </li>
-            <li>
+            <li class="list-inline">
                 social2
             </li>
-            <li>
+            <li class="list-inline">
                 social3
             </li>
         </ul>
