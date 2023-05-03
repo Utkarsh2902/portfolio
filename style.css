@@ -156,3 +156,13 @@ body {
 .list-inline a {
    text-decoration: none;
 }
+@media (max-width: 900px){
+   body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+   /* .list-inline a {
+      display: inline;
+   } */
+}
