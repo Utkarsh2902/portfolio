@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 :root {
    --primary-color: #e4be3f;
    --off-white: #f3f4f6;
@@ -55,8 +56,6 @@ body {
 .list-inline {
    display: inline;
    padding: 0rem 0.5rem;
-   text-decoration: none;
-
 }
 
 .nav {
@@ -78,20 +77,25 @@ body {
 .nav .pills {
    color: white;
 }
-.nav a{
+
+.nav a {
    text-decoration: none;
+}
+
+.pills-active {
+   font-weight: bold;
 }
 
 .hero {
    padding: 2rem;
-  padding-top: 5rem;
+   padding-top: 5rem;
 }
 
 .hero .image {
    max-width: 80%;
-  width: 550px;
-  display: block;
-  margin: auto;
+   width: 550px;
+   display: block;
+   margin: auto;
 }
 
 .hero .hero-heading {
@@ -111,9 +115,10 @@ body {
 
 .section h1 {
    text-align: center;
-  
+
 }
-.section p{
+
+.section p {
    text-align: center;
 }
 
@@ -125,7 +130,7 @@ body {
    background-color: var(--primary-color);
    padding: 2rem 1rem;
    text-align: center;
-  color: white;
+   color: white;
    border-top-right-radius: 1rem;
 }
 
@@ -138,10 +143,16 @@ body {
 .foot .listalign {
    text-align: center;
    padding-inline-start: 0px;
-   color:white;
+   color: white;
 }
-.foot a{
+
+.foot a {
    text-align: center;
    padding-inline-start: 0px;
-   color:white;
+   color: white;
+   text-decoration: none;
+}
+
+.list-inline a {
+   text-decoration: none;
 }
