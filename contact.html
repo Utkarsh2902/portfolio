@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utkarsh Gupta Home Page</title>
+    <title>Blogs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="nav">
         <div class="heading">Portfolio</div>
-
         <ul class="listalign">
             <li class="list-inline">
-                <a class="pills pills-active" href="/">Home</a>
+                <a class="pills" href="/">Home</a>
             </li>
             <li class="list-inline">
                 <a class="pills" href="/projects.html">Projects</a>
@@ -24,29 +23,41 @@
                 <a class="pills" href="/blogs.html">Blogs</a>
             </li>
             <li class="list-inline">
-                <a class="pills" href="/contact.html">Contact</a>
+                <a class="pills pills-active" href="/contact.html">Contact</a>
             </li>
-            
         </ul>
     </nav>
     <header class="hero">
-        <img class="image" src="/images/myback3.svg" alt="cover">
-        <h1 class="hero-heading">Utkarsh Gupta <span style="color: #e4be3f;">The Web Developer</span> </h1>
+        <h1 class="hero-heading">Contact <span style="color: #e4be3f;">Me</span> </h1>
     </header>
-    <section class="section ow">
-        <h1>Technologies</h1>
-        <p> HTML5, CSS3, JavaScript, TypeScript, Angular, Ionic,Bootstrap</p>
-    </section>
-    <section class="section">
-        <h1>See Projects</h1>
-        <p>I like to showcase my projects , you can see as they are hosted online</p>
-        <a class="link link-primary" href="/projects.html">See Projects</a>
-    </section>
-    <section class="section ow">
-        <h1>See Blogs</h1>
-        <p>I like to document my journey of learning while making these projects </p>
-        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
-    </section>
+
+    <!-- Contact Form -->
+    <div class="concontainer">
+        <form id="contact" action="https://formspree.io/f/mbjvljdn" method="POST">
+            <h3>Please fill the following Credentials</h3>
+            <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+
 
     <footer class="foot">
         <div class="foothead">Social Media</div>
@@ -62,6 +73,7 @@
             </li>
         </ul>
     </footer>
+
 </body>
 
 </html>
